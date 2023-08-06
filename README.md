@@ -5,13 +5,13 @@ Python with Chromedriver, for running automated tests
 ## Quick Try
 
 ```bash
-$ git clone https://github.com/st-mn/docker-python-chromedriver.git
+git clone https://github.com/st-mn/docker-python-chromedriver.git
 ```
 ```bash
-$ cd docker-python-chromedriver
+cd docker-python-chromedriver
 ```
 ```bash
-$ docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chromedriver:latest bash
+docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chromedriver:latest bash
 ```
 ```bash
 /usr/workspace# pip install selenium
