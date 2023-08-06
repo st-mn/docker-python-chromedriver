@@ -2,6 +2,13 @@
 
 Python with Chromedriver, for running automated tests for https://www.caru-care.com/
 
+## Image includes
+ - Python (Debian or Alpine based)
+ - Google Chrome
+ - Chromedriver
+ - Selenium (in some versions)
+ - Xvfb (in some versions)
+
 ## Quick Try
 
 ```bash
@@ -22,11 +29,5 @@ pip install selenium && python test_script.py
 
 
 
-## Image includes
- - Python (Debian or Alpine based)
- - Google Chrome
- - Chromedriver
- - Selenium (in some versions)
- - Xvfb (in some versions)
 
 
