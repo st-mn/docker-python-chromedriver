@@ -11,17 +11,15 @@ mkdir pt
 git clone https://github.com/st-mn/docker-python-chromedriver.git && cd docker-python-chromedriver
 ```
 ```bash
-cd docker-python-chromedriver
+virtualenv venv && source venv/bin/activate
 ```
 ```bash
 docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chromedriver:latest bash
 ```
 ```bash
-pip install selenium
+pip install selenium && python test_script.py
 ```
-```bash
-python test_script.py
-```
+
 
 
 ## Image includes
