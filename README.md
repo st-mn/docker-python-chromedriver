@@ -27,7 +27,8 @@ docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chro
 pip install selenium && python test_script.py
 ```
 
+## Sample test cases
 
-
+https://github.com/st-mn/docker-python-chromedriver/blob/master/test_script.py 
 
 
