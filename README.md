@@ -1,6 +1,6 @@
 # docker-python-chromedriver
 
-Python with Chromedriver, for running automated tests
+Python with Chromedriver, for running automated tests for https://www.caru-care.com/
 
 ## Quick Try
 
@@ -8,7 +8,7 @@ Python with Chromedriver, for running automated tests
 mkdir pt
 ```
 ```bash
-git clone https://github.com/st-mn/docker-python-chromedriver.git
+git clone https://github.com/st-mn/docker-python-chromedriver.git && cd docker-python-chromedriver
 ```
 ```bash
 cd docker-python-chromedriver
