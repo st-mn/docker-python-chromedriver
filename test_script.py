@@ -28,7 +28,7 @@ class TestTemplate(unittest.TestCase):
     def test_case_1(self):
         """Find and click top-left logo button"""
         try:
-            self.driver.get('https://www.oursky.com/')
+            self.driver.get('https://www.caru-care.com/')
             el = self.driver.find_element(By.CLASS_NAME, 'header__logo')
             el.click()
         except NoSuchElementException as ex:
@@ -37,7 +37,7 @@ class TestTemplate(unittest.TestCase):
     def test_case_2(self):
         """Find and click top-right Start your project button"""
         try:
-            self.driver.get('https://www.oursky.com/')
+            self.driver.get('https://www.caru-care.com/')
             el = self.driver.find_element(By.CLASS_NAME, "header__cta")
             el.click()
         except NoSuchElementException as ex:
