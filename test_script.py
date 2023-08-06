@@ -26,7 +26,7 @@ class TestTemplate(unittest.TestCase):
         self.driver.quit()
 
     def test_case_1(self):
-        """Find and click top-left logo button"""
+        """Find and click top-righ element popup-dropdown menu"""
         try:
             self.driver.get('https://www.caru-care.com/')
             el = self.driver.find_element(By.CLASS_NAME, 'pageindex loaded tt-popup-dropdown')
@@ -35,7 +35,7 @@ class TestTemplate(unittest.TestCase):
             self.fail(ex.msg)
 
     def test_case_2(self):
-        """Find and click top-right Start your project button"""
+        """Find and click top-left element mm-open menu"""
         try:
             self.driver.get('https://www.caru-care.com/')
             el = self.driver.find_element(By.CLASS_NAME, "pageindex loaded mm-open")
