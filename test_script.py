@@ -29,7 +29,7 @@ class TestTemplate(unittest.TestCase):
         """Find and click top-left element CARU logo tt-obj-logo"""
         try:
             self.driver.get('https://www.caru-care.com/')
-            el = self.driver.find_element(By.CLASS_NAME, 'tt-col-obj tt-obj-logo')
+            el = self.driver.find_element(By.CLASS_NAME, 'shopify-selection')
             el.click()
         except NoSuchElementException as ex:
             self.fail(ex.msg)
