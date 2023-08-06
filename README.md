@@ -5,6 +5,9 @@ Python with Chromedriver, for running automated tests
 ## Quick Try
 
 ```bash
+mkdir pt
+```
+```bash
 git clone https://github.com/st-mn/docker-python-chromedriver.git
 ```
 ```bash
