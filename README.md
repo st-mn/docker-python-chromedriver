@@ -6,8 +6,6 @@ Python with Chromedriver, for running automated tests for https://www.caru-care.
  - Python (Debian or Alpine based)
  - Google Chrome
  - Chromedriver
- - Selenium (in some versions)
- - Xvfb (in some versions)
 
 ## Quick Try
 
