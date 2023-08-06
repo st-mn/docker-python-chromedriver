@@ -29,7 +29,7 @@ class TestTemplate(unittest.TestCase):
         """Find and click top-left logo button"""
         try:
             self.driver.get('https://www.caru-care.com/')
-            el = self.driver.find_element(By.CLASS_NAME, 'header__logo')
+            el = self.driver.find_element(By.CLASS_NAME, 'pageindex loaded tt-popup-dropdown')
             el.click()
         except NoSuchElementException as ex:
             self.fail(ex.msg)
@@ -38,7 +38,7 @@ class TestTemplate(unittest.TestCase):
         """Find and click top-right Start your project button"""
         try:
             self.driver.get('https://www.caru-care.com/')
-            el = self.driver.find_element(By.CLASS_NAME, "header__cta")
+            el = self.driver.find_element(By.CLASS_NAME, "pageindex loaded mm-open")
             el.click()
         except NoSuchElementException as ex:
             self.fail(ex.msg)
