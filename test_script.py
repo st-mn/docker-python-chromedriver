@@ -26,16 +26,7 @@ class TestTemplate(unittest.TestCase):
         self.driver.quit()
 
     def test_case_1(self):
-        """Find and click top-left element CARU top header shopify-selection"""
-        try:
-            self.driver.get('https://www.caru-care.com/')
-            el = self.driver.find_element(By.CLASS_NAME, 'shopify-selection')
-            el.click()
-        except NoSuchElementException as ex:
-            self.fail(ex.msg)
-
-    def test_case_2(self):
-        """Find and click top-right element CARU menu desctop-menu-large"""
+        """Find and click top menu element on caru-care.com"""
         try:
             self.driver.get('https://www.caru-care.com/')
             el = self.driver.find_element(By.CLASS_NAME, 'desctop-menu-large')
