@@ -26,7 +26,7 @@ class TestTemplate(unittest.TestCase):
         self.driver.quit()
 
     def test_case_1(self):
-        """Find and click top-left element CARU logo"""
+        """Find and click top-left element CARU logo tt-obj-logo"""
         try:
             self.driver.get('https://www.caru-care.com/')
             el = self.driver.find_element(By.CLASS_NAME, 'tt-col-obj tt-obj-logo')
@@ -35,7 +35,7 @@ class TestTemplate(unittest.TestCase):
             self.fail(ex.msg)
 
     def test_case_2(self):
-        """Find and click top-left element mm-open menu"""
+        """Find and click top-right element CARU menu tt-obj-options"""
         try:
             self.driver.get('https://www.caru-care.com/')
             el = self.driver.find_element(By.CLASS_NAME, 'tt-col-obj tt-obj-options')
