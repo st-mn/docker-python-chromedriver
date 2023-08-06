@@ -26,10 +26,10 @@ class TestTemplate(unittest.TestCase):
         self.driver.quit()
 
     def test_case_1(self):
-        """Find and click top-righ element popup-dropdown menu"""
+        """Find and click top-left element CARU logo"""
         try:
             self.driver.get('https://www.caru-care.com/')
-            el = self.driver.find_element(By.CLASS_NAME, 'pageindex loaded tt-popup-dropdown')
+            el = self.driver.find_element(By.CLASS_NAME, 'tt-col-obj tt-obj-logo')
             el.click()
         except NoSuchElementException as ex:
             self.fail(ex.msg)
@@ -38,7 +38,7 @@ class TestTemplate(unittest.TestCase):
         """Find and click top-left element mm-open menu"""
         try:
             self.driver.get('https://www.caru-care.com/')
-            el = self.driver.find_element(By.CLASS_NAME, "pageindex loaded mm-open")
+            el = self.driver.find_element(By.CLASS_NAME, 'tt-col-obj tt-obj-options')
             el.click()
         except NoSuchElementException as ex:
             self.fail(ex.msg)
