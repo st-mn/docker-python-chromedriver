@@ -1,6 +1,6 @@
 # docker-python-chromedriver
 
-Python with Chromedriver, for running automated tests for https://www.caru-care.com/
+Sample automated test on Python with Chromedriver for https://www.caru-care.com/
 
 ## Image includes
  - Python (Debian or Alpine based)
