@@ -22,7 +22,7 @@ virtualenv venv && source venv/bin/activate
 docker run -it -w /usr/workspace -v $(pwd):/usr/workspace joyzoursky/python-chromedriver:latest bash
 ```
 ```bash
-pip install selenium && python test_script.py
+apt install nano && pip install selenium && python test_script.py
 ```
 
 ## Sample test cases
